@@ -14,8 +14,13 @@ We have a collection of succulents, with different details about each variety. W
 - A user can filter the list of succulents by type
 - A user can "like" (and subsequently revoke the like) for any number of succulents
 
+### Get started
+The app is bootstrapped using `create-react-app`. You can start the development server via `yarn start` or `npm start`. For more information on `create-react-app`, see the `CRA-README.md` file.
+
+`App.js` is your main entry point to the application.
+
 ### Where to get the data 
-In this repo is a `json` file with an array of succulent data. You can consume it however you would like.
+In this repo is a `json` file with an array of succulent data. You can consume it however you would like. Feel free to move it.
 
 ### Tests
 Tests are always welcome and at least one test as a proof of concept would be ideal.
