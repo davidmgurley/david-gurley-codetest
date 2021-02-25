@@ -11,7 +11,7 @@ We have a collection of succulents, with different details about each variety. W
 - A user can view all succulents in the collection at once
 - A user can view details on a specific succulent
 - A user can filter the list of succulents by name (text search)
-- A user can filter the list of succulents by type
+- A user can filter the list of succulents by category
 - A user can "like" (and subsequently revoke the like) for any number of succulents
 
 ### Get started
