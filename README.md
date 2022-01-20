@@ -1,5 +1,7 @@
 ### Introduction
 
+Yo
+
 This is a front-end focused code evaluation. You will have 3 hours to work on this followed by a 1 hour code review/walkthrough of what you have built.
 
 You are not expected to finish everything. Work with whatever tools and frameworks you would like, though a React base is preferred.
@@ -19,7 +21,7 @@ The app is bootstrapped using `create-react-app`. You can start the development 
 
 `App.js` is your main entry point to the application.
 
-### Where to get the data 
+### Where to get the data
 In this repo is a `json` file with an array of succulent data. You can consume it however you would like. Feel free to move it.
 
 ### Tests
