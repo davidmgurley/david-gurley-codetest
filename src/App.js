@@ -1,49 +1,102 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
-import MarkdownIt from 'markdown-it'
-import { succulents } from './succulents'
-
-const md = new MarkdownIt()
-const readme = md.render(`
-### Introduction
-
-This is a front-end focused code evaluation. You will have 3 hours to work on this followed by a 1 hour code review/walkthrough of what you have built.
-
-You are not expected to finish everything. Work with whatever tools and frameworks you would like, though a React base is preferred.
-
-### Story
-We have a collection of succulents, with different details about each variety. We want to give our users a way to browse these succulents and view details about them as desired.
-
-##### Requirements
-- A user can view all succulents in the collection at once
-- A user can view details on a specific succulent
-- A user can filter the list of succulents by name (text search)
-- A user can filter the list of succulents by type
-- A user can "like" (and subsequently revoke the like) for any number of succulents
-
-### Get started
-The app is bootstrapped using \`create-react-app\`. You can start the development server via \`yarn start\` or \`npm start\`. For more information on \`create-react-app\`, see the \`CRA-README.md\` file.
-
-\`App.js\` is your main entry point to the application.
-
-### Where to get the data
-In this repo is a file with an array of succulent data \`src/succulent.js\`. You can consume it however you would like. Feel free to move it.
-
-### Tests
-Tests are always welcome and at least one test as a proof of concept would be ideal.
-
-### Help/Questions
-Please reach out to ginman@thezerocard.com if you have any questions.
-`)
+import React, { useState, useEffect } from 'react';
+import SucculentList from './SucculentList';
+import './App.css';
+import { succulents } from './succulents';
+import { TextField, Select, MenuItem, FormControl, InputLabel, Box, Button } from '@mui/material';
 
 function App() {
+  const [succulentData, setSucculentData] = useState([]);
+  const [searchInput, setSearchInput] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('');
+  const [categories, setCategories] = useState([]);
+
+  useEffect(() => {
+    setSucculentData(succulents);
+  }, []);
+
+  useEffect(() => {
+    setCategories(generateCategories());
+  }, []);
+
+  useEffect(() => {
+    filterSucculents(searchInput, selectedCategory);
+  }, [searchInput, selectedCategory]);
+
+  const generateCategories = () => {
+    return Array.from(
+      new Set(succulents.flatMap((succulent) => succulent.basic.category))
+    );
+  };
+
+  const filterSucculents = (searchTerm, category) => {
+    let filtered = succulents;
+
+    if (searchTerm) {
+      filtered = filtered.filter((succulent) =>
+        succulent.pid.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+    }
+
+    if (category) {
+      filtered = filtered.filter((succulent) =>
+        succulent.basic.category.includes(category)
+      );
+    }
+
+    setSucculentData(filtered);
+  };
+
+  const createCategoryMenuItems = () => {
+    return categories.map((category) => {
+      return <MenuItem value={category}>{category}</MenuItem>;
+    });
+  };
+
+  const handleCategorySelect = (e) => {
+    setSelectedCategory(e.target.value);
+  };
+
+  const handleSearchInputChange = (e) => {
+    setSearchInput(e.target.value);
+  };
+
+  const clearCategory = () => {
+    setSelectedCategory('');
+  };
+
   return (
     <div className='main-content'>
-      <p>Edit App.js and save to reload</p>
-      <div dangerouslySetInnerHTML={{ __html: readme }} />
+      <div className='header-bar'>
+        <Box>
+          <h1>Succulents</h1>
+          <FormControl>
+            <TextField
+              label="Search By Name"
+              variant="outlined"
+              value={searchInput}
+              onChange={handleSearchInputChange}
+            />
+            <FormControl>
+              <InputLabel id="category-label">Category</InputLabel>
+              <Select
+                value={selectedCategory}
+                onChange={handleCategorySelect}
+                label="Category"
+                labelId="category-label"
+              >
+                {createCategoryMenuItems()}
+              </Select>
+            </FormControl>
+            <Button variant="contained" onClick={clearCategory}>
+              Clear
+            </Button>
+          </FormControl>
+        </Box>
+      </div>
+
+      <SucculentList succulents={succulentData} />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

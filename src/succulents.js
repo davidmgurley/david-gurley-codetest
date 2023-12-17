@@ -5,7 +5,7 @@ export const succulents = [
         "floral_language": "Opuntia microdasys \nFloriography: strong, kind, persistent.\nSucculent stem of the Opuntia microdasys is oval and palm shaped, thick and juicy. Leaves reduce to long needle spines. Because it is almost care free, Opuntia microdasys is very popular and could be found on desktop, tea table, bedroom and office.\nOpuntia microdasys requires direct bright sunlight for growth. It blooms in certain conditions. Flower color could be light yellow, orange or pink.",
         "origin": "Mexico",
         "production": "China",
-        "category": "Cactaceae, Opuntia",
+        "category": ["Cactaceae", "Opuntia"],
         "blooming": "Succulent plants, sometimes flowers with a short period flowering time 2-3 days",
         "color": "Green, flower color light yellow, orange, pink"
     },
@@ -40,7 +40,7 @@ export const succulents = [
         "floral_language": "",
         "origin": "Asia",
         "production": "China",
-        "category": "Crassulaceae, Echeveria",
+        "category": ["Crassulaceae", "Echeveria"],
         "blooming": "Succulent plants, sometimes flowers with a short period time\uff0c\u82b1\u4e3a\u6a59\u8272",
         "color": "Leaf color yellow green\uff0cand will turn pink with much sunlight"
     },
@@ -75,7 +75,7 @@ export const succulents = [
         "floral_language": "Succulent plant 'Synutra'\nFloriography: exquisite, tenacious, lovely\nVery cute and lovely, thick fleshy leaves like a heart with split round tips, light green color, juicy and elegant, very unique, suitable for growing alone or in combinations with other small succulents. \nLikes sunshine, has a short dormant period under summer high temperature, need shade properly under scattered light. Flowers are yellow.",
         "origin": "South Africa",
         "production": "China",
-        "category": "Aizoaceae, Conophytum",
+        "category": ["Aizoaceae", "Conophytum"],
         "blooming": "Succulent plants, sometimes flowers, yellow flowers",
         "color": "Leaf color tender green, when sunny leaf edges turning to red"
     },
@@ -110,7 +110,7 @@ export const succulents = [
         "floral_language": "Gymnocalycium horstii \nFloriography: strong, kind, persistent.\nSucculent stem of the Gymnocalycium horstii is oval and palm shaped, thick and juicy. Leaves reduce to long needle spines. Because it is almost care free, Gymnocalycium horstii is very popular and could be found on desktop, tea table, bedroom and office.\nGymnocalycium horstii requires direct bright sunlight for growth. It blooms in certain conditions. Flower color could be light yellow, orange or pink.",
         "origin": "South America",
         "production": "China",
-        "category": "Cactaceae, Gymnocalycium",
+        "category": ["Cactaceae", "Gymnocalycium"],
         "blooming": "Succulent plants, sometimes flowers with a short period flowering time 2-3 days",
         "color": "Green, flower color light yellow, orange, pink"
     },
@@ -145,7 +145,7 @@ export const succulents = [
         "floral_language": "Aloe arborescens\nFloriography: self-respect, tenacious, vital.\nAloe arborescens is a compact evergreen succulent plant. Leaves thick and juicy, long lanceolate shaped with spines at edges. Besides ornamental cultivation, A. vera is popular for anti-bacteria, anti-inflammation, facial and mosquito off.\nAloe arborescens requires sunbath for growth. It would go into short dormancy in winter and should stay warm. Yellow or orange flowers bloom in spring and summer.",
         "origin": "Africa",
         "production": "China",
-        "category": "Liliaceae, Aloe",
+        "category": ["Liliaceae", "Aloe"],
         "blooming": "Succulent plants, sometimes flowers, yellow or orange flowers",
         "color": "Leaf color green"
     },
@@ -180,7 +180,7 @@ export const succulents = [
         "floral_language": "Aloe broomii\nFloriography: self-respect, tenacious, vital.\nAloe broomii is a compact evergreen succulent plant. Leaves thick and juicy, long lanceolate shaped with spines at edges. Besides ornamental cultivation, A. vera is popular for anti-bacteria, anti-inflammation, facial and mosquito off.\nAloe broomii requires sunbath for growth. It would go into short dormancy in winter and should stay warm. Yellow or orange flowers bloom in spring and summer.",
         "origin": "Africa",
         "production": "China",
-        "category": "Liliaceae, Aloe",
+        "category": ["Liliaceae", "Aloe"],
         "blooming": "Succulent plants, sometimes flowers, yellow or orange flowers",
         "color": "Leaf color green"
     },
@@ -215,7 +215,7 @@ export const succulents = [
         "floral_language": "Cylindropuntia leptocaulis \nFloriography: strong, kind, persistent.\nSucculent stem of the Cylindropuntia leptocaulis is oval and palm shaped, thick and juicy. Leaves reduce to long needle spines. Because it is almost care free, Cylindropuntia leptocaulis is very popular and could be found on desktop, tea table, bedroom and office.\nCylindropuntia leptocaulis requires direct bright sunlight for growth. It blooms in certain conditions. Flower color could be light yellow, orange or pink.",
         "origin": "Mexico",
         "production": "China",
-        "category": "Cactaceae, Opuntia",
+        "category": ["Cactaceae", "Opuntia"],
         "blooming": "Succulent plants, sometimes flowers with a short period flowering time 2-3 days",
         "color": "Green, flower color light yellow, orange, pink"
     },
@@ -250,7 +250,7 @@ export const succulents = [
         "floral_language": "Dolichothele longimamma \nFloriography: strong, kind, persistent.\nSucculent stem of the Dolichothele longimamma is oval and palm shaped, thick and juicy. Leaves reduce to long needle spines. Because it is almost care free, Dolichothele longimamma is very popular and could be found on desktop, tea table, bedroom and office.\nDolichothele longimamma requires direct bright sunlight for growth. It blooms in certain conditions. Flower color could be light yellow, orange or pink.",
         "origin": "Mexico",
         "production": "China",
-        "category": "Cactaceae, Mammillaria",
+        "category": ["Cactaceae", "Mammillaria"],
         "blooming": "Succulent plants, sometimes flowers with a short period flowering time 2-3 days",
         "color": "Green, flower color yellow"
     },
@@ -285,7 +285,7 @@ export const succulents = [
         "floral_language": "Hylocereus undatus \nFloriography: strong, kind, persistent.\nSucculent stem of the Hylocereus undatus is oval and palm shaped, thick and juicy. Leaves reduce to long needle spines. Because it is almost care free, Hylocereus undatus is very popular and could be found on desktop, tea table, bedroom and office.\nHylocereus undatus requires direct bright sunlight for growth. It blooms in certain conditions. Flower color could be light yellow, orange or pink.",
         "origin": "Mexico",
         "production": "China",
-        "category": "Cactaceae, Hylocereus",
+        "category": ["Cactaceae", "Hylocereus"],
         "blooming": "Succulent plants, sometimes flowers with a short period flowering time 2-3 days",
         "color": "Green, flower color light yellow, orange, pink"
     },
@@ -320,7 +320,7 @@ export const succulents = [
         "floral_language": "Ferocactus peninsulae \nFloriography: strong, kind, persistent.\nSucculent stem of the Ferocactus peninsulae is oval and palm shaped, thick and juicy. Leaves reduce to long needle spines. Because it is almost care free, Ferocactus peninsulae is very popular and could be found on desktop, tea table, bedroom and office.\nFerocactus peninsulae requires direct bright sunlight for growth. It blooms in certain conditions. Flower color could be light yellow, orange or pink.",
         "origin": "South America",
         "production": "China",
-        "category": "Cactaceae, Ferocactus",
+        "category": ["Cactaceae", "Ferocactus"],
         "blooming": "Succulent plants, sometimes flowers with a short period flowering time 2-3 days",
         "color": "Green, flower color light yellow, orange, pink"
     },
@@ -356,7 +356,7 @@ export const succulents = [
         "floral_language": "Stetsonia coryne \nFloriography: strong, kind, persistent.\nSucculent stem of the Stetsonia coryne is oval and palm shaped, thick and juicy. Leaves reduce to long needle spines. Because it is almost care free, Stetsonia coryne is very popular and could be found on desktop, tea table, bedroom and office.\nStetsonia coryne requires direct bright sunlight for growth. It blooms in certain conditions. Flower color could be light yellow, orange or pink.",
         "origin": "Mexico",
         "production": "China",
-        "category": "Cactaceae, Stetsonia",
+        "category": ["Cactaceae", "Stetsonia"],
         "blooming": "Succulent plants, sometimes flowers with a short period flowering time 2-3 days",
         "color": "Green, flower color light yellow, orange, pink"
     },
@@ -391,7 +391,7 @@ export const succulents = [
         "floral_language": "Sempervivum tectorum\nFloriography: pure, beautiful, and happiness \nSempervivum tectorum is a small succulent plant. Fleshy, succulent leaves tightly arranged like a blooming lotus flower, and lateral buds are easily sprouted. Leaves are rich in color. In the cool and sunny season, leaf tip becomes purple red. The fleshy plants can match a variety of delicate small plants as miniature landscape, which is very popular in the public. \nSempervivum tectorum like sunshine, and is half shadow resistance. In hot summer, when it enters short dormancy, place it in half in the shade. It is flowering in June to July and the flower color is white or purple.",
         "origin": "Asia",
         "production": "Yunnan",
-        "category": "Crassulaceae, Sempervivum",
+        "category": ["Crassulaceae", "Sempervivum"],
         "blooming": "Succulent plants, sometimes flowers, white or purple flowers",
         "color": "Leaf color green, when sunny with fuchsia leaf tips"
     },
@@ -426,7 +426,7 @@ export const succulents = [
         "floral_language": "Sempervivum \nFloriography: self-improvement, self-confident, pure \nSempervivum is a well-known one in succulent plants. Plant stature is elegant, fleshy leaves arranged in rosette, leaf color is rich. When sunny, the leaf tip will become red. Succulent plants can match a variety of delicate small plants as miniature landscape, so it is the popular trend in the public. \nSempervivum like sunshine, and when it is flowering, plants produce a stem which has pink flowers.",
         "origin": "Holland",
         "production": "Yunnan",
-        "category": "Crassulaceae, Sempervivum",
+        "category": ["Crassulaceae", "Sempervivum"],
         "blooming": "Succulent plants, blooms sometimes, when the plant sprouts a stem from the center, blooms with pink flowers",
         "color": "Leaf color yellow green, gray green, dark green, brown"
     },
@@ -461,7 +461,7 @@ export const succulents = [
         "floral_language": "Crassula pyramidalis Thunb\nFloriography: natural, positive, tenacious\nCrassula pyramidalis Thunb is a tall pyramid-like succulent, relatively symmetric, with needle or line shape green leaves tightly arranged, may become reddish color under a great diurnal temperature range and abundant sunlight. For its plant shape, often used for decoration in small pot succulent combos.",
         "origin": "Asia",
         "production": "China",
-        "category": "Crassulaceae, Crassula",
+        "category": ["Crassulaceae", "Crassula"],
         "blooming": "Succulent plants, rarely flowers",
         "color": "Leaf color green, with adequate sunlight, leaves turning to red"
     },
@@ -496,7 +496,7 @@ export const succulents = [
         "floral_language": "Crassula pyramidalis Thunb\nFloriography: natural, positive, tenacious\nCrassula pyramidalis Thunb is a tall pyramid-like succulent, relatively symmetric, with needle or line shape green leaves tightly arranged, may become reddish color under a great diurnal temperature range and abundant sunlight. For its plant shape, often used for decoration in small pot succulent combos.",
         "origin": "Asia",
         "production": "China",
-        "category": "Crassulaceae, Crassula",
+        "category": ["Crassulaceae", "Crassula"],
         "blooming": "Succulent plants, rarely flowers",
         "color": "Leaf color green, with adequate sunlight, leaves turning to red"
     },
@@ -531,7 +531,7 @@ export const succulents = [
         "floral_language": "Echeveria pulvinata\nFloriography: diligent, earnest, response\nEcheveria pulvinata is a succulent, very tough and popular in new succulent plant enthusiasts. Has many branches with alternatively arranged leaves in a rosette. Leaves hypertrophy, oval, gray-green, with dense white fluff on surface. Under great diurnal temperature range with sufficient sunlight, leave edges turn dark red.\nEcheveria pulvinata likes sun, tolerates half shade, when in the short dormancy in summer, place in the shade. Bloom in winter or spring with orange flowers.",
         "origin": "Mexico",
         "production": "Yunnan",
-        "category": "Crassulaceae, Echeveria",
+        "category": ["Crassulaceae", "Echeveria"],
         "blooming": "Succulent plants, sometimes flowers, orange flowers",
         "color": "Leaf color gray green, when sunny leaf edges turning to dark red"
     },
@@ -566,7 +566,7 @@ export const succulents = [
         "floral_language": "",
         "origin": "South America",
         "production": "China",
-        "category": "Cactaceae",
+        "category": ["Cactaceae"],
         "blooming": "Succulent plants, sometimes flowers with a short period time\uff0cflower color rose red or red",
         "color": "Leaf color green"
     },
@@ -601,7 +601,7 @@ export const succulents = [
         "floral_language": "",
         "origin": "Mexico",
         "production": "China",
-        "category": "Crassulaceae, Echeveria",
+        "category": ["Crassulaceae", "Echeveria"],
         "blooming": "Succulent plants, sometimes flowers with a short period time",
         "color": "Leaf color grey green\uff0cand"
     },
@@ -636,7 +636,7 @@ export const succulents = [
         "floral_language": "",
         "origin": "China",
         "production": "China",
-        "category": "Crassulaceae, Orostachys",
+        "category": ["Crassulaceae", "Orostachys"],
         "blooming": "Succulent plants, sometimes flowers with a short period time",
         "color": "Flower color white\uff0cleaf color green and will turn red with enough light"
     },
@@ -671,7 +671,7 @@ export const succulents = [
         "floral_language": "",
         "origin": "Mexico",
         "production": "China",
-        "category": "Crassulaceae, Sedum",
+        "category": ["Crassulaceae", "Sedum"],
         "blooming": "Succulent plants, sometimes flowers with a short period time\uff0cflowering period in spring",
         "color": "Leaf color green"
     },
@@ -706,7 +706,7 @@ export const succulents = [
         "floral_language": "Greenovia diplocycla var.gigantea\nFloriography: perseverance, vigorous, beautiful\nGreenovia diplocycla var.gigantea looks like a flower with green oval leaves of smoothly curved edges. When in summer dormancy, leaves will close tightly, like a rose. Strong reproductive ability, may plant alone.\nLikes sunny places with half-shade tolerance, hibernates under high temperatures in summer, should shade properly and stop watering. Flowers sometimes with yellow flowers.",
         "origin": "Africa",
         "production": "China",
-        "category": "Crassulaceae, Aeonium",
+        "category": ["Crassulaceae", "Aeonium"],
         "blooming": "Succulent plants, sometimes flowers, yellow flowers",
         "color": "Leaf color green"
     },
@@ -741,7 +741,7 @@ export const succulents = [
         "floral_language": "",
         "origin": "America",
         "production": "China",
-        "category": "Cactaceae, Astrophytum",
+        "category": ["Cactaceae", "Astrophytum"],
         "blooming": "Succulent plants, sometimes flowers with a short period time",
         "color": "the sucuulent ball purple with stabs on the surface"
     },
@@ -776,7 +776,7 @@ export const succulents = [
         "floral_language": "",
         "origin": "Americas",
         "production": "China",
-        "category": "Crassulaceae",
+        "category": ["Crassulaceae"],
         "blooming": "Succulent plants, sometimes flowers with a short period time",
         "color": "Leaf color blue green\uff0cand will turn red with sufficient light"
     },
@@ -811,7 +811,7 @@ export const succulents = [
         "floral_language": "",
         "origin": "Mexico",
         "production": "China",
-        "category": "Crassulaceae, Echeveria",
+        "category": ["Crassulaceae", "Echeveria"],
         "blooming": "Succulent plant, flowering period in spring",
         "color": "Leaf color blue green\uff0cand will turn pink with adequate sunlight"
     },
@@ -846,7 +846,7 @@ export const succulents = [
         "floral_language": "",
         "origin": "Tanzania",
         "production": "China",
-        "category": "Euphorbiaceae, Monadenium",
+        "category": ["Euphorbiaceae", "Monadenium"],
         "blooming": "Succulent plants, sometimes flowers with a short period time",
         "color": "Leaf color green\uff0cflower color light yellow"
     },

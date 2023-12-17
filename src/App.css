@@ -13,4 +13,12 @@
   padding: 25px;
   background: #f9f1f1;
   border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.search-input {
+  margin-bottom: 16px !important
 }
