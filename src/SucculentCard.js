@@ -44,7 +44,6 @@ function SucculentCard({ succulent }) {
         <Typography color="textSecondary">
           Soil: {succulent.maintenance.soil}
         </Typography>
-        {/* Add other fields as needed */}
         <Button variant="contained" onClick={handleLike}>
           <ThumbUpIcon sx={{ fontSize: 20, marginRight: 1 }} />
           {liked ? 'Liked' : 'Like'}
